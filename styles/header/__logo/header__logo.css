@@ -1,0 +1,17 @@
+.header__logo {
+}
+.header__logo {
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 104px;
+  border: 1px solid #fff;
+  text-align: center;
+}

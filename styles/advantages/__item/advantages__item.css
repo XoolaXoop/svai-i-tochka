@@ -1,0 +1,30 @@
+.advantages__item {
+  position: relative;
+}
+.advantages__item::before {
+  position: absolute;
+  left: -50px;
+  top: 0px;
+
+  display: block;
+  width: 40px;
+  height: 40px;
+
+  font-size: 20px;
+
+  content: '';
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: inherit;
+}
+@media only screen and (max-width: 992px) {
+  .advantages__item {
+    max-width: 500px;
+  }
+  .advantages__item::before {
+    left: -40px;
+    width: 35px;
+    height: 35px;
+  }
+}

@@ -1,0 +1,9 @@
+.technology__wrapper {
+  display: flex;
+  gap: 40px;
+}
+@media only screen and (max-width: 1200px) {
+  .technology__img {
+    display: none;
+  }
+}

@@ -1,0 +1,13 @@
+.price-table__newbody tr {
+  height: 40px;
+  border: 1px solid var(--second-color);
+}
+.price-table__newbody::before {
+  content: '';
+  display: block;
+  height: 15px;
+  background: inherit;
+}
+.price-table__newbody tr td {
+  text-align: center;
+}

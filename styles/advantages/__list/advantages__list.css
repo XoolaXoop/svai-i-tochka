@@ -1,0 +1,19 @@
+.advantages__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  margin: 0;
+  padding-left: 50px;
+  gap: 50px;
+
+  list-style-type: none;
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 768px) {
+  .advantages__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+}

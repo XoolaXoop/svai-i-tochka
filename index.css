@@ -1,0 +1,135 @@
+@import url('./styles/normalize.css');
+
+/*-------------------------- main --------------------------*/
+@import url('styles/main/main.css');
+
+/*-------------------------- header --------------------------*/
+@import url('styles/header/header.css');
+@import url('styles/header/__burger-btn/header__burger-btn.css');
+
+/*-------------------------- footer --------------------------*/
+@import url('styles/footer/footer.css');
+
+/*-------------------------- container --------------------------*/
+@import url('styles/container/container.css');
+
+/*-------------------------- menu --------------------------*/
+@import url('styles/menu/menu.css');
+@import url('styles/menu/__item/menu__item.css');
+@import url('styles/menu/__link/menu__link.css');
+@import url('styles/menu/__list/menu__list.css');
+
+/*-------------------------- advantages --------------------------*/
+@import url('styles/advantages/advantages.css');
+@import url('styles/advantages/__img/advantages__img.css');
+@import url('styles/advantages/__item/advantages__item.css');
+@import url('styles/advantages/__list/advantages__list.css');
+@import url('styles/advantages/__text-content/advantages__text-content.css');
+@import url('styles/advantages/__item/_speed/advantages__item_speed.css');
+@import url('styles/advantages/__item/_profit/advantages__item_profit.css');
+@import url('styles/advantages/__item/_safety/advantages__item_safety.css');
+@import url('styles/advantages/__item/_time/advantages__item_time.css');
+@import url('styles/advantages/__item/_quality/advantage__item_quality.css');
+@import url('styles/advantages/__item/_date/advantages__item_date.css');
+
+/*-------------------------- presentation --------------------------*/
+@import url('styles/presentation/presentation.css');
+@import url('styles/presentation/__img/presentation__img.css');
+@import url('styles/presentation/__name/presentation__name.css');
+
+/*-------------------------- form-order --------------------------*/
+@import url('styles/form-order/form-order.css');
+@import url('styles/form-order/__button/form-order__button.css');
+@import url('styles/form-order/__tel/form-order__tel.css');
+
+/*-------------------------- header-logo --------------------------*/
+@import url('styles/header/__logo/header__logo.css');
+
+/*-------------------------- foundation-comparison --------------------------*/
+@import url('styles/foundation-comparison/foundation-comparison.css');
+@import url('styles/foundation-comparison/__item/foundation-comparison__item.css');
+@import url('styles/foundation-comparison/__list/foundation-comparison__list.css');
+@import url('styles/foundation-comparison/__name/foundation-comparison__name.css');
+
+/*-------------------------- swiper --------------------------*/
+@import url('styles/swiper/swiper.css');
+@import url('styles/swiper/__swiper-pointer/swiper__swiper-pointer.css');
+
+/*-------------------------- foundation-advantages-list --------------------------*/
+@import url('styles/foundation-advantages-list/foundation-advantages-list.css');
+@import url('styles/foundation-advantages-list/__item/foundation-advantages-list__item.css');
+@import url('styles/foundation-advantages-list/__item/_minus/foundation-advantages-list__item_minus.css');
+
+/*-------------------------- section --------------------------*/
+@import url('styles/section/section.css');
+@import url('styles/section/__header/section__header.css');
+
+/*-------------------------- technology --------------------------*/
+@import url('styles/technology/technology.css');
+@import url('styles/technology/__wrapper/technology__wrapper.css');
+@import url('styles/technology/__text-content/technology__text-content.css');
+
+/*-------------------------- works --------------------------*/
+@import url('styles/works/__img/works__img.css');
+@import url('styles/works/works.css');
+
+/*-------------------------- price --------------------------*/
+@import url('styles/price/price__block-to-scroll/price__block-to-scroll.css');
+@import url('styles/price/price.css');
+
+/*-------------------------- price-table --------------------------*/
+@import url('styles/price-table/price-table.css');
+@import url('styles/price-table/__head/price-table__head.css');
+@import url('styles/price-table/__newbody/price-table__newbody.css');
+@import url('styles/price-table/__newbody/_no-border/price-table__newbody_no-border.css');
+
+/*-------------------------- social-icons --------------------------*/
+@import url('styles/social-icons/social-icons.css');
+@import url('styles/social-icons/__item/social-icons__item.css');
+
+* {
+  --first-color: #ffffff;
+  --second-color: #F0B823;
+  --swiper-navigation-size: 50px;
+  --swiper-navigation-top-offset: 50%;
+  --swiper-navigation-sides-offset: 5px;
+  --swiper-navigation-color: #fff;
+  --swiper-pagination-fraction-color: #fff;
+  --swiper-scrollbar-drag-bg-color: #F0B823;
+  --btns-color: #fff;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+  min-width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+}
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+}
+@media only screen and (max-width: 992px) {
+  h2 {
+    font-size: 1.5em;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  * {
+    --swiper-navigation-size: 30px;
+  }
+  body {
+    padding: 20px;
+  }
+}

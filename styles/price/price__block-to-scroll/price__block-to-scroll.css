@@ -1,0 +1,8 @@
+.price__block-to-scroll {
+  overflow: scroll;
+}
+@media screen and (min-width: 1200px) {
+  .price__block-to-scroll {
+    overflow: unset;
+  }
+}

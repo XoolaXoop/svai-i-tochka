@@ -1,0 +1,3 @@
+.advantages__item_time::before {
+  background-image: url('/assets/imgs/svg/time-check-svgrepo-com.svg');
+}

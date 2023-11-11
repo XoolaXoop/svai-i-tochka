@@ -1,0 +1,79 @@
+.swiper__swiper-pointer {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1002;
+
+  display: none;
+  width: 40px;
+  height: 40px;
+
+  background-image: url('/assets/imgs/svg/swipe-left-hand-svgrepo-com.svg');
+  background-size: cover;
+  background-color: inherit;
+  background-position: center;
+}
+.swiper1 .swiper__swiper-pointer {
+  right: 10px;
+}
+@-webkit-keyframes swiper {
+  15% {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+  30% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  50% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  65% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  80% {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes swiper {
+  15% {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+  30% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  50% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  65% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  80% {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@media screen and (max-width: 992px) {
+  .swiper__swiper-pointer {
+    -webkit-animation: swiper 2s ease;
+    animation: swiper 2s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: infinite;
+    display: block;
+  }
+}

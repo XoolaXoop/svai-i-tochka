@@ -1,0 +1,17 @@
+.price-table {
+  text-indent: initial;
+  border-spacing: 2px;
+  border-collapse: collapse;
+  width: 100%;
+  overflow: hidden;
+}
+.price .price-table {
+  margin-bottom: 1em;
+}
+@media only screen and (max-width: 992px) {
+  .price-table {
+    overflow-x: scroll;
+    min-width: 752px;
+    font-size: 0.8em;
+  }
+}

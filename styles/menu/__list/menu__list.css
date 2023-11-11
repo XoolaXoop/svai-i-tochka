@@ -1,0 +1,22 @@
+.menu__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 40px;
+
+  font-size: 20px;
+
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .menu__list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    height: 100%;
+  }
+}

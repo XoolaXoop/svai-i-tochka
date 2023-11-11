@@ -1,0 +1,4 @@
+.price-table__newbody_no-border tr {
+  border: none;
+  padding-bottom: 3em;
+}

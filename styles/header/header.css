@@ -1,0 +1,25 @@
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+}
+
+@media only screen and (max-width: 1280px) {
+  .header.container {
+    padding: 0 50px 10px 50px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .header.container {
+    border-bottom: none;
+  }
+}
+@media only screen and (max-width: 728px) {
+  .header.container {
+    padding: 0;
+    padding-bottom: 10px;
+  }
+}

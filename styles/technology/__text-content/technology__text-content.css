@@ -1,0 +1,25 @@
+.technology__text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.technology__group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.technology__text-content p {
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+}
+@media only screen and (max-width: 1200px) {
+  .technology__text-content p {
+    font-size: 1em;
+  }
+  .technology__text-content {
+    padding: 7%;
+  }
+}

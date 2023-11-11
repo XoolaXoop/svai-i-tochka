@@ -1,0 +1,8 @@
+.foundation-advantages-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+
+  list-style-type: none;
+}

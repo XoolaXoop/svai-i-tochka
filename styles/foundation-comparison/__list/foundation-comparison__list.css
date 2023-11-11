@@ -1,0 +1,12 @@
+.foundation-comparison__list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .foundation-comparison__list > .foundation-comparison__item {
+    display: none;
+  }
+}

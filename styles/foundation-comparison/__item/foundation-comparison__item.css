@@ -1,0 +1,19 @@
+.foundation-comparison__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 600px;
+  max-width: 450px;
+  padding: 15px;
+
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #fff;
+}
+@media only screen and (max-width: 992px) {
+  .foundation-comparison__item {
+    height: 500px;
+    max-width: 250px;
+    font-size: 0.8em;
+  }
+}

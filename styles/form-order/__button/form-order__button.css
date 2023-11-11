@@ -1,0 +1,30 @@
+.form-order__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  height: 70px;
+  padding: 30px;
+  margin: 10px auto 50px auto;
+
+  font-size: 1.1em;
+  border: none;
+  border-radius: 15px;
+  background: var(--second-color);
+  cursor: pointer;
+}
+.form-order__button:hover {
+  color: #fff;
+  transition: 0.5s;
+}
+@media only screen and (max-width: 992px) {
+  .form-order__button {
+    font-size: 1em;
+    max-width: 250px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .form-order__button {
+    margin-top: 20px;
+  }
+}

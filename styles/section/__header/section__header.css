@@ -1,0 +1,35 @@
+.section__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  align-items: start;
+  padding-top: 10px;
+}
+.section__header h2 {
+  margin: 0;
+}
+.section__header span {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 26px;
+}
+.technology .section__header span {
+  max-width: 420px;
+}
+@media only screen and (max-width: 1200px) {
+  .section__header {
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .section__header span {
+    font-size: 0.8em;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .section__header {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+}

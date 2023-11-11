@@ -1,0 +1,11 @@
+.social-icons__item {
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-color: inherit;
+  background-position: center;
+  cursor: pointer;
+}
+.social-icons__item:first-child {
+  background-image: url('/assets/imgs/svg/whatsapp-color-svgrepo-com.svg');
+}

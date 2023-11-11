@@ -1,0 +1,15 @@
+.price-table__head tr {
+  background-color: var(--second-color);
+  display: table-row;
+}
+.price-table__head tr:nth-child(2) {
+  background-color: inherit;
+  border-bottom: 1px solid var(--second-color);
+  color: #fff;
+}
+.price-table__head th {
+  padding: 13px 8px;
+  font-size: 15px;
+  font-weight: 600;
+  border-color: var(--second-color);
+}

@@ -1,0 +1,19 @@
+.foundation-advantages-list__item {
+  position: relative;
+
+  font-size: 1.2em;
+}
+.foundation-advantages-list__item::before {
+  position: absolute;
+  top: 0px;
+  left: -30px;
+
+  display: block;
+  width: 20px;
+  height: 20px;
+
+  content: '';
+  background-image: url('/assets/imgs/svg/checkmark-svgrepo-com.svg');
+  background-position: center;
+  background-size: cover;
+}

@@ -1,0 +1,3 @@
+.foundation-advantages-list__item_minus::before {
+  background-image: url('/assets/imgs/svg/error-svgrepo-com.svg');
+}
